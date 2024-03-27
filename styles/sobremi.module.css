@@ -1,0 +1,35 @@
+.sobremi {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .sobremi {
+    padding-top: 5rem;
+  }
+}
+.parrafo {
+  margin: 0 auto;
+  max-width: 70%;
+  color: #828282;
+  margin-top: -1.5rem;
+  font-size: 1.75rem;
+}
+@media (min-width: 768px) {
+  .parrafo {
+    margin-top: -2.5rem;
+  }
+}
+.descripcion {
+  margin: 0 auto;
+  max-width: 75%;
+  color: var(--primary);
+}
+@media (min-width: 768px) {
+  .descripcion {
+    max-width: 50%;
+    color: var(--primary);
+  }
+}
+.descripcion p:last-child {
+  padding-bottom: 10rem;
+  border-bottom: 1px solid #cfcfcf;
+}
