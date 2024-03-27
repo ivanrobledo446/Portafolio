@@ -19,16 +19,11 @@
   margin-bottom: 0.75rem;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   margin: 0 auto;
   gap: 2rem;
   margin-bottom: 2rem;
-}
-
-@media (min-width: 768px) {
-  .navegacion {
-    width: 25%;
-  }
 }
 
 .navegacion a {
